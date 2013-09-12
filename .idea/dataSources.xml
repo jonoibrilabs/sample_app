@@ -30,8 +30,9 @@
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cab9cafc-d9c1-4649-b6c5-e1bd69d8d038">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:sample_app_test</jdbc-url>
-      <user-name>sample_app</user-name>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe2df9edfc4df93df98dfc2df9adfdfdf8c</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
