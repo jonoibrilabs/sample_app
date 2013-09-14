@@ -3,7 +3,7 @@
   <component name="DataSourceManagerImpl" format="xml" hash="3521277765">
     <data-source source="LOCAL" name="Rails sample_app: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="52ba649d-89a5-4e9a-8b23-0e25eb865fbb">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql:sample_app_development</jdbc-url>
       <user-name>postgres</user-name>
       <user-password>dfe2df9edfc4df93df98dfc2df9adfdfdf8c</user-password>
       <libraries>
@@ -30,8 +30,8 @@
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cab9cafc-d9c1-4649-b6c5-e1bd69d8d038">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_development</jdbc-url>
-      <user-name>postgres</user-name>
+      <jdbc-url>jdbc:postgresql:sample_app_test</jdbc-url>
+      <user-name>sample_app</user-name>
       <user-password>dfe2df9edfc4df93df98dfc2df9adfdfdf8c</user-password>
       <libraries>
         <library>
